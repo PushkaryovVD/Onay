@@ -1,0 +1,102 @@
+/* Normalize */
+* {
+	padding: 0px;
+	margin: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+    font-weight: 400;
+}
+body, html { height: 100%; }
+img { border:0px; }
+label { user-select: none; -moz-user-select: none; }
+a { color: #595959; text-decoration: underline; }
+	a:hover { text-decoration: underline; }
+
+button, select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	outline: 0;
+}
+input { outline: 0; }
+
+
+/*** Snippets ***/
+
+/* Border: red 1px */
+.r { border:solid 1px #f00; }
+
+/* Clear: left */
+.clear-left { clear: left; }   /* need rename to cl */
+
+/* Overflow: hidden */
+.overhide { overflow: hidden; }
+
+/* Cursor: pointer */
+.cur-pointer { cursor: pointer; }
+
+/* Padding: 0 */
+.p0 { padding: 0px; }
+
+/* Padding: 0 */
+.m0 { margin: 0px; }
+
+/* Float: left */
+.fl { float: left !important; }
+
+/* Float: right */
+.fr { float: right !important; }
+
+/* Text-align: left */
+.t-left { text-align: left; }
+
+/* Text-align: right */
+.t-right { text-align: right; }
+
+/* Text-align: center */
+.t-center { text-align: center; }
+
+/* Not select */
+.ns {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	outline: 0;
+	cursor: default;
+}
+
+.col-0 { float: left; width: 0%; }
+.col-1 { float: left; width: 4.166%; }
+.col-2 { float: left; width: 8.333%; }
+.col-3 { float: left; width: 12.499%; }
+.col-4 { float: left; width: 16.666%; }
+.col-5 { float: left; width: 20.832%; }
+.col-6 { float: left; width: 25%; }
+.col-7 { float: left; width: 29.166%; }
+.col-8 { float: left; width: 33.333%; }
+.col-9 { float: left; width: 37.499%; }
+.col-10 { float: left; width: 41.666%; }
+.col-11 { float: left; width: 45.832%; }
+.col-12 { float: left; width: 50%; }
+.col-13 { float: left; width: 54.166%; }
+.col-14 { float: left; width: 58.333%; }
+.col-15 { float: left; width: 62.499%; }
+.col-16 { float: left; width: 66.666%; }
+.col-17 { float: left; width: 70.832%; }
+.col-18 { float: left; width: 75%; }
+.col-19 { float: left; width: 79.166%; }
+.col-20 { float: left; width: 83.333%; }
+.col-21 { float: left; width: 87.499%; }
+.col-22 { float: left; width: 91.666%; }
+.col-23 { float: left; width: 95.832%; }
+.col-24 { float: left; width: 100%; }
